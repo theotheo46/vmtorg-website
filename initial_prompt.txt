@@ -140,30 +140,22 @@ Please follow these specific composition details:
 ```
 Создай видео ролик облета камерой кабинета руководителя на основе референсного изображения:
 - центр композиции - executive desk
-- камера облетает оффис и возвращается в исходную точку
+- камера облетает оффис и возвращается в исходную точку осуществляя поворот на 360 градусов
+- движение камеры должны быть плавные без рывков
 ```
 Создай на его основе промпт на английском в формате Markdown для использования его для генерации видео в Gemini. 
 
 
-# Video Generation Prompt: Executive Office Cinematic Fly-Through
+**Action Prompt:**
+Generate a realistic, cinematic video flying through an executive office based on the provided reference image. 
 
-**Input Image:** [Attach Reference Image]
+**Composition & Subject:**
+- The absolute center of the composition must remain the **executive desk** throughout the entire video. 
 
-**Scene Description:**
-A photorealistic, high-end executive office in a classical revival style. The absolute focal point and strict center of the composition is a grand executive desk. The surrounding interior features premium architectural finishes, incorporating rich wood paneling like American walnut or mahogany, and sophisticated accents such as green marble. 
-
-**Camera Movement & Framing:**
-* **Trajectory:** A smooth, cinematic 360-degree continuous orbital tracking shot.
-* **Action:** The camera executes a sweeping fly-around of the entire office space, maintaining focus on the executive desk at all times to highlight the spatial layout.
-* **Conclusion:** The camera seamlessly returns to its exact starting coordinates, creating a perfect, continuous loop.
-
-**Lighting & Atmosphere:**
-* Soft, volumetric lighting paired with practical, warm architectural fixtures.
-* Ray-traced reflections emphasizing the polished wood surfaces and premium materials.
-
-**Technical Specifications:**
-* **Style:** High-end architectural visualization, hyper-realistic, 8k resolution.
-* **Pacing:** Slow, steady, and elegant — suitable for a professional client presentation.
+**Camera Movement:**
+- Execute a continuous, **360-degree orbit/fly-through** around the office. 
+- The camera must seamlessly return exactly to its original starting point, creating a perfect, closed loop.
+- The camera motion must be incredibly **smooth, fluid, and cinematic**, with absolutely no jerks, stuttering, or sudden shifts in speed.
 
 
 

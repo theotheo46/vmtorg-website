@@ -1,0 +1,178 @@
+Исходный промпт:
+
+```
+Создай фотореалистичное изображение стола на основе референса:
+- Материал столешницы задай `Американский орех`, остальные материалы возьми с референса.
+- Задай реалистичную текстуру столешницы с учетом пористости и прочих артефактов которые присущи естественной обработке натурального дерева.
+- Раздели стол на четыре квадранта с едва заметной фаской. В каждом квадранте задай свое направление текстуры по диагонали, при этом направление текстуры в квадрантах по диагонали должно совпадать.
+- Не помещай на стол никаких предметов и кроме стола в кадре ничего не должно быть. 
+- Стол должен попасть в кадр полностью как на референсе и в той же проекции как на референсе.
+- Не меняй пропорции, не дорисовывай новые детали.
+```
+Создай на его основе промпт на английском в формате Markdown для использования его для генерации изображения в Gemini. 
+
+--------
+
+**Generate a photorealistic image of a table based on the provided reference image, strictly following these parameters:**
+
+* **Materials & Texture:** The tabletop must be made of **American Walnut**. Keep the materials of the table legs/base exactly as they are in the reference.
+* **Surface Details:** Render a highly realistic wood texture. Include natural porosity, subtle grain variations, and authentic imperfections typical of naturally treated solid wood.
+* **Tabletop Design:** The tabletop must be divided into four equal quadrants separated by a barely noticeable, delicate chamfer (groove). Each quadrant must have its wood grain running diagonally. Ensure that the diagonal grain direction in opposite quadrants matches perfectly.
+* **Scene Composition:** The tabletop must be completely empty. There should be absolutely no objects on the table, and nothing else in the frame except the table itself (use a clean, isolated background).
+* **Framing & Perspective:** The entire table must be fully visible within the frame. Match the exact camera projection, angle, and perspective of the reference image.
+* **Strict Constraints:** Maintain the exact proportions of the reference. Do not hallucinate or add any new details, decorations, or elements that are not present in the original design.
+
+
+
+Создай промпт на основании исходного промпта для использования его для генерации изображения в Gemini, язык промпта английский. Исходный промпт:
+Создай фотореалистичное изображение винного шкафа на основе референса. Материал поверхности и нижнего ряда дверей задай `Американский орех`, остальные материалы возьми с референса. Два верхних ряда - прозрачное стекло. Задай реалистичную текстуру поверхности с учетом пористости и прочих артефактов
+ которые присущи естественной обработке натурального дерева.  Не помещай внутрь никаких предметов и кроме шкафа в кадре ничего не должно быть. Шкаф должен попасть в кадр полностью как на референсе и в той же проекции как на референсе. Не меняй пропорции, не дорисовывай новые детали.
+
+
+A photorealistic, studio-style shot of a custom wine cabinet, captured in the exact same front-facing projection and proportions as the reference image. The lower row of doors and the entire outer cabinet frame are crafted from premium American Walnut wood. The wood surface must feature a highly detailed, realistic natural texture, including characteristic wood grain patterns, fine pores, subtle organic imperfections, and the tactile finish of authentically treated natural timber. The two upper rows of doors feature clear, flawless transparent glass. The cabinet is completely empty inside, with no wine bottles or accessories. The entire cabinet must be fully visible in the frame, from top to bottom, without any cropped edges or added architectural elements. Isolated shot against a clean, neutral, minimalist studio background. No other objects in the frame. High-end product photography lighting to emphasize the wood texture and glass transparency.
+-----------------------
+Исходный промпт:
+```
+Создай фотореалистичное изображение комода на основе референса:
+- Материал поверхности и верхнего ряда дверей задай `Американский орех` с использованием технологии раскладки mix match, остальные материалы возьми с референса.
+- Нижний ряд - прозрачное стекло. Задай реалистичную текстуру поверхности с учетом пористости и прочих артефактов которые присущи естественной обработке натурального дерева. 
+- На верхней поверхности изобрази едва видимый стык который будет разделять левые три и правые три секции - стык должен быть едва виден.
+- Не повторяй один и тот же элемент текстуры для передних панелей - создай 6 разных элементов текстуры для них. Панели должны отличаться своей текстурой - но незначительно - можно взять исходную структуру и слегка ее поворачивать. Для верхних панелей сделай два варианта текстуры - разделенные стыком
+- Металлическую окантовку стекол сделай не в виде единого объекта а в виде 4х секций соединенными стыками - цвет окантовки черный. Стык должен быть виден
+- Цвет ручек - `состаренное золото`.
+- Не помещай внутрь никаких предметов и кроме комода в кадре ничего не должно быть.
+- Комод должен попасть в кадр полностью как на референсе и в той же проекции как на референсе. Не располагай его в фронтальной проекции - покажи в изометрии
+- Не меняй пропорции, не дорисовывай новые детали.
+- Задай источник света спереди - тень назад
+```
+Создай на его основе промпт на английском в формате Markdown для использования его для генерации изображения в Gemini. 
+
+
+**Create a photorealistic image of a six-section dresser (sideboard) based on the provided reference image.**
+
+**Camera & Composition:**
+*   **Perspective:** Isometric projection (angled view, strictly avoid a flat frontal view). Show the dresser in the exact same projection as the reference.
+*   **Framing:** The entire dresser must fit completely within the frame.
+*   **Environment:** Completely isolated. There must be absolutely nothing else in the frame except the dresser. 
+*   **Content:** Do not place any objects inside the dresser. The shelves behind the glass must be completely empty.
+*   **Fidelity:** Strictly maintain the original proportions. Do not invent or add any new structural details.
+
+**Materials & Textures:**
+*   **Wood:** The top surface and the top row of doors must be **American Walnut**, utilizing a "mix-match" veneer layout technique.
+*   **Wood Realism:** Highly realistic natural wood texture. It must display natural porosity, grain variations, and subtle artifacts inherent to naturally processed wood.
+*   **Texture Variation:** Do not use a tiled or repeating wood grain pattern for the front panels. Create **6 distinct wood grain elements** for them (the base structure can be slightly rotated or shifted so each panel looks naturally unique but cohesive). For the top surface, use two slightly different texture variations separated by a seam.
+*   **Bottom Row:** The lower row of doors must be made of transparent glass.
+*   **Other Materials:** Keep the rest of the materials exactly as they are in the reference.
+
+**Specific Details:**
+*   **Top Surface Seam:** Add a very subtle, barely visible seam exactly in the middle of the top surface, dividing the three left sections from the three right sections.
+*   **Metal Framing:** The black metal framing around the glass doors must not be a single continuous molded piece. It must be constructed from **4 separate sections with visibly defined joints/seams** where they connect.
+*   **Hardware:** The handles must be colored **antique gold**.
+
+**Lighting:**
+*   **Light Source:** Directional lighting coming from the front, casting realistic shadows directly backward.
+
+---------------------
+
+
+Исходный промпт:
+```
+Создай фотореалистичное изображение винного шкафа на основе референса:
+- Материал поверхности и нижнего ряда дверей задай `Американский орех` с использованием технологии раскладки mix match, остальные материалы возьми с референса. Задай реалистичную текстуру поверхности с учетом пористости и прочих артефактов которые присущи естественной обработке натурального дерева.
+- Верхние два ряда - прозрачное стекло. 
+- На верхней поверхности изобрази едва видимые три стыка который будет разделять 4 секции - стык должен быть едва виден.
+- Не повторяй один и тот же элемент текстуры для передних панелей - создай разные элементы текстуры для них. Панели должны отличаться своей текстурой - но незначительно - можно взять исходную структуру и слегка ее поворачивать. Для верхних панелей сделай 4 варианта текстуры - разделенные стыками
+- Металлическую окантовку стекол сделай не в виде единого объекта а в виде 4х секций соединенными стыками - цвет окантовки черный. Стык должен быть виден
+- Цвет ручек - `состаренное золото`.
+- Не помещай внутрь никаких предметов и кроме шкафа в кадре ничего не должно быть.
+- Шкаф должен попасть в кадр полностью как на референсе и в той же проекции как на референсе. Не располагай его в фронтальной проекции - покажи в изометрии
+- Не меняй пропорции, не дорисовывай новые детали.
+- Задай источник света спереди - тень назад
+```
+Создай на его основе промпт на английском в формате Markdown для использования его для генерации изображения в Gemini. 
+
+
+**Subject:** A photorealistic image of an empty wine cabinet, shown in full frame.
+
+**Perspective & Composition:** * **Angle:** Isometric projection (do not use a flat, straight-on frontal view). 
+* **Framing:** The entire cabinet must fit within the frame. 
+* **Environment:** The cabinet is completely empty inside. There are no background elements, props, or other objects in the scene—only the cabinet. 
+* **Constraints:** Maintain standard realistic proportions and do not hallucinate or add any extra decorative details.
+
+**Materials & Textures:**
+* **Wood:** The top surface and the bottom row of solid doors are made of **American walnut** using a **'mix match' veneer layout**.
+* **Realism:** The wood texture must be highly realistic, displaying natural porosity, subtle grain variations, and artifacts typical of naturally treated natural wood.
+* **Texture Variation (Crucial):** Do not repeat or clone the exact same wood texture across the front panels. Each door and panel should have a slightly different texture pattern (e.g., slightly shifted or rotated natural grain).
+* **Glass:** The top two rows consist of transparent glass doors.
+* **Handles:** All handles are **antique gold**.
+
+**Specific Structural Details:**
+* **Top Surface:** The top wooden surface must have three faintly visible seams, dividing it into four distinct sections. Each of these four sections must have its own unique variation of the wood texture.
+* **Metal Framing:** The black metal frame around the glass is not a single seamless piece. It is made of four distinct sections connected by visible seams/joints. The color of the metal frame is **black**.
+
+**Lighting:**
+* **Illumination:** The primary light source is positioned directly in front of the cabinet.
+* **Shadows:** Shadows should be cast backward, behind the cabinet.
+
+--------------
+
+Исходный промпт:
+```
+Создай фотореалистичное изображение кабинета руководителя на основе референсных изображений - executive desk (`executive_desk_pro_7.png`), chest (`chest_pro_mm_3_nologo.png`), wine cabinet (`wine_cabinet_pro_2_nologo.png`), tv stand (`tv_stand.png`), and a wall-mounted table (`wall-mounted-table.png`):
+- центр композиции - executive desk
+- остальные элементы расположены вокруг.
+- на tv stand установи плазменный телевизор в выключенном состоянии
+- формат кадра - 16:9
+```
+Создай на его основе промпт на английском в формате Markdown для использования его для генерации изображения в Gemini, используй точные названия референсных изображений. 
+
+
+Generate a photorealistic image of an executive office interior incorporating the following reference items: an executive desk (`executive_desk_pro_7.png`), a chest (`chest_pro_mm_3_nologo.png`), a wine cabinet (`wine_cabinet_pro_2_nologo.png`), a TV stand (`tv_stand.png`), and a wall-mounted table (`wall-mounted-table.png`).
+
+Please follow these specific composition details:
+* **Center of the composition:** The executive desk.
+* **Arrangement:** Position the rest of the furniture elements harmoniously around the desk.
+* **Details:** Place a flat-screen plasma TV, turned off (black screen), on top of the TV stand.
+* **Aspect Ratio:** 16:9
+--------------
+
+Исходный промпт:
+```
+Создай видео ролик облета камерой кабинета руководителя на основе референсного изображения:
+- центр композиции - executive desk
+- камера облетает оффис и возвращается в исходную точку
+```
+Создай на его основе промпт на английском в формате Markdown для использования его для генерации видео в Gemini. 
+
+
+# Video Generation Prompt: Executive Office Cinematic Fly-Through
+
+**Input Image:** [Attach Reference Image]
+
+**Scene Description:**
+A photorealistic, high-end executive office in a classical revival style. The absolute focal point and strict center of the composition is a grand executive desk. The surrounding interior features premium architectural finishes, incorporating rich wood paneling like American walnut or mahogany, and sophisticated accents such as green marble. 
+
+**Camera Movement & Framing:**
+* **Trajectory:** A smooth, cinematic 360-degree continuous orbital tracking shot.
+* **Action:** The camera executes a sweeping fly-around of the entire office space, maintaining focus on the executive desk at all times to highlight the spatial layout.
+* **Conclusion:** The camera seamlessly returns to its exact starting coordinates, creating a perfect, continuous loop.
+
+**Lighting & Atmosphere:**
+* Soft, volumetric lighting paired with practical, warm architectural fixtures.
+* Ray-traced reflections emphasizing the polished wood surfaces and premium materials.
+
+**Technical Specifications:**
+* **Style:** High-end architectural visualization, hyper-realistic, 8k resolution.
+* **Pacing:** Slow, steady, and elegant — suitable for a professional client presentation.
+
+
+
+
+A photorealistic, full-shot studio photograph of a premium wooden dining table. The tabletop is crafted from authentic American Walnut wood, showcasing a rich grain pattern with natural imperfections, subtle wood pores, and a realistic matte finish characteristic of natural wood processing. The tabletop surface is precisely divided into four distinct quadrants, separated by a clean, barely noticeable, subtle chamfer (bevel). The table is completely empty with no objects on top. The entire table is fully captured in the frame, mirroring the exact composition, angles, and supporting materials of the reference image. Studio lighting highlights the organic texture of the wood.
+
+
+создай промпт на основании исходного промпта для использования его для обновления изображения из референса в Gemini, язык промпта английский. Исходный промпт:
+Измени изображение стола на основе референса. Раздели стол на четыре квадранта с едва заметной фаской. Не помещай на стол никаких предметов и стол должен попасть в кадр полностью как на референсе
+
+
+Modify the desk from the reference image. Divide the desk's top surface into four equal quadrants separated by subtle, barely visible chamfers (beveled edges). The desk must be completely empty with no objects or items placed on it. Ensure the entire desk is fully captured in the frame, maintaining the exact same camera angle, perspective, and composition as the reference image.

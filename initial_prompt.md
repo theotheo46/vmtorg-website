@@ -1,3 +1,7 @@
+# PROMPTS TEMPLATES
+
+## DESK
+
 Исходный промпт:
 
 ```
@@ -11,7 +15,6 @@
 ```
 Создай на его основе промпт на английском в формате Markdown для использования его для генерации изображения в Gemini. 
 
---------
 
 **Generate a photorealistic image of a table based on the provided reference image, strictly following these parameters:**
 
@@ -22,15 +25,8 @@
 * **Framing & Perspective:** The entire table must be fully visible within the frame. Match the exact camera projection, angle, and perspective of the reference image.
 * **Strict Constraints:** Maintain the exact proportions of the reference. Do not hallucinate or add any new details, decorations, or elements that are not present in the original design.
 
+## CHEST
 
-
-Создай промпт на основании исходного промпта для использования его для генерации изображения в Gemini, язык промпта английский. Исходный промпт:
-Создай фотореалистичное изображение винного шкафа на основе референса. Материал поверхности и нижнего ряда дверей задай `Американский орех`, остальные материалы возьми с референса. Два верхних ряда - прозрачное стекло. Задай реалистичную текстуру поверхности с учетом пористости и прочих артефактов
- которые присущи естественной обработке натурального дерева.  Не помещай внутрь никаких предметов и кроме шкафа в кадре ничего не должно быть. Шкаф должен попасть в кадр полностью как на референсе и в той же проекции как на референсе. Не меняй пропорции, не дорисовывай новые детали.
-
-
-A photorealistic, studio-style shot of a custom wine cabinet, captured in the exact same front-facing projection and proportions as the reference image. The lower row of doors and the entire outer cabinet frame are crafted from premium American Walnut wood. The wood surface must feature a highly detailed, realistic natural texture, including characteristic wood grain patterns, fine pores, subtle organic imperfections, and the tactile finish of authentically treated natural timber. The two upper rows of doors feature clear, flawless transparent glass. The cabinet is completely empty inside, with no wine bottles or accessories. The entire cabinet must be fully visible in the frame, from top to bottom, without any cropped edges or added architectural elements. Isolated shot against a clean, neutral, minimalist studio background. No other objects in the frame. High-end product photography lighting to emphasize the wood texture and glass transparency.
------------------------
 Исходный промпт:
 ```
 Создай фотореалистичное изображение комода на основе референса:
@@ -72,7 +68,7 @@ A photorealistic, studio-style shot of a custom wine cabinet, captured in the ex
 **Lighting:**
 *   **Light Source:** Directional lighting coming from the front, casting realistic shadows directly backward.
 
----------------------
+## WINE CABINET
 
 
 Исходный промпт:
@@ -114,7 +110,7 @@ A photorealistic, studio-style shot of a custom wine cabinet, captured in the ex
 * **Illumination:** The primary light source is positioned directly in front of the cabinet.
 * **Shadows:** Shadows should be cast backward, behind the cabinet.
 
---------------
+## OFFICE
 
 Исходный промпт:
 ```
@@ -134,7 +130,8 @@ Please follow these specific composition details:
 * **Arrangement:** Position the rest of the furniture elements harmoniously around the desk.
 * **Details:** Place a flat-screen plasma TV, turned off (black screen), on top of the TV stand.
 * **Aspect Ratio:** 16:9
---------------
+
+## VIDEO
 
 Исходный промпт:
 ```
@@ -157,14 +154,3 @@ Generate a realistic, cinematic video flying through an executive office based o
 - The camera must seamlessly return exactly to its original starting point, creating a perfect, closed loop.
 - The camera motion must be incredibly **smooth, fluid, and cinematic**, with absolutely no jerks, stuttering, or sudden shifts in speed.
 
-
-
-
-A photorealistic, full-shot studio photograph of a premium wooden dining table. The tabletop is crafted from authentic American Walnut wood, showcasing a rich grain pattern with natural imperfections, subtle wood pores, and a realistic matte finish characteristic of natural wood processing. The tabletop surface is precisely divided into four distinct quadrants, separated by a clean, barely noticeable, subtle chamfer (bevel). The table is completely empty with no objects on top. The entire table is fully captured in the frame, mirroring the exact composition, angles, and supporting materials of the reference image. Studio lighting highlights the organic texture of the wood.
-
-
-создай промпт на основании исходного промпта для использования его для обновления изображения из референса в Gemini, язык промпта английский. Исходный промпт:
-Измени изображение стола на основе референса. Раздели стол на четыре квадранта с едва заметной фаской. Не помещай на стол никаких предметов и стол должен попасть в кадр полностью как на референсе
-
-
-Modify the desk from the reference image. Divide the desk's top surface into four equal quadrants separated by subtle, barely visible chamfers (beveled edges). The desk must be completely empty with no objects or items placed on it. Ensure the entire desk is fully captured in the frame, maintaining the exact same camera angle, perspective, and composition as the reference image.

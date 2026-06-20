@@ -1,0 +1,8 @@
+- Замени изображения `images/chest.png` и `images/wine_cabinet.png` на обновленные версии chest_pro_mm_4_nologo.png и wine_cabinet_pro_3_nologo.png из директории `/Users/theo/Documents/WebSite` соответственно
+- Добавь новые категории мебели с изображениями:
+  - `Журнальный столик` - /Users/theo/Documents/WebSite/coffee_table_pro-nologo.png
+  - `Стол` - /Users/theo/Documents/WebSite/table_pro_nologo.png
+  - `Стол для конференций` - /Users/theo/Documents/WebSite/conf_table_pro_nologo.png
+  - `Подставка для цветов` - /Users/theo/Documents/WebSite/flower_stand_pro_nologo.png
+- Для всех новых изображений измени их размер и сгенери webp файлы так как это уже сделано для файлов изображений в директории images
+- Обнови веб сайт с обновленными изображениями и добавь новые категории ниже уже существующих

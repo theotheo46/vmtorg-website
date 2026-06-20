@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="styles.css?v=15" />
 
 <style>
-  /* Branded loading state shown while in-browser JSX compiles */
+  /* Branded loading state shown while scripts load and React mounts */
   #boot{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;
     justify-content:center;gap:18px;background:#1a120c;z-index:9999;
     transition:opacity .5s ease;font-family:"Cormorant Garamond",Georgia,serif}
@@ -48,10 +48,10 @@
 <!-- Production React builds for the live site (no dev-mode console warnings) -->
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 
-<script type="text/babel" src="tweaks-panel.jsx?v=1"></script>
-<script type="text/babel" src="app.jsx?v=14"></script>
+<!-- Precompiled from tweaks-panel.jsx / app.jsx (see those files for source; rebuild with Babel after editing) -->
+<script src="tweaks-panel.js?v=1"></script>
+<script src="app.js?v=14"></script>
 
 <script>
   // Hide the boot splash once React has mounted into #root.
